@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Добавить студента</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Добавить студента</h1>
+    <a class="add-link" href="index.html">Назад к списку</a>
+
+    <div id="errors" class="error"></div>
+
+    <form id="studentForm" class="student-form">
+      <label>Имя:
+        <input type="text" id="firstName">
+      </label>
+      <label>Фамилия:
+        <input type="text" id="lastName">
+      </label>
+      <label>Отчество:
+        <input type="text" id="middleName">
+      </label>
+      <label>Дата рождения:
+        <input type="date" id="birthDate">
+      </label>
+      <label>Год начала обучения:
+        <input type="number" id="startYear">
+      </label>
+      <label>Факультет:
+        <input type="text" id="faculty">
+      </label>
+      <button type="submit" class="submitBtn">Добавить студента</button>
+    </form>
+  </div>
+
+  <script src="form.js"></script>
+</body>
+</html>

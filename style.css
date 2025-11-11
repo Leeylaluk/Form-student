@@ -1,0 +1,182 @@
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f5eee8;
+    color: #5a3e2b;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 420px;
+    margin: 70px auto;
+    background: #fffaf5;
+    border-radius: 15px;
+    padding: 40px 45px;
+    box-shadow: 0 4px 20px rgba(90, 62, 43, 0.25);
+    text-align: center;
+}
+
+.form-container h1 {
+    color: #5a3e2b;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+
+.add-link {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    background-color: #e9d8c3;
+    border-radius: 10px;
+    color: #4b2e18;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.add-link:hover {
+    background-color: #d8bca1;
+}
+
+
+.error {
+    color: #d12b2b;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+#studentForm {
+    width: 100%;
+    display: grid;
+    gap: 12px;
+    text-align: left;
+}
+
+#studentForm label {
+    font-size: 18px;
+    color: #603b1f;
+    display: flex;
+    flex-direction: column;
+}
+
+#studentForm input {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #d9bfa7;
+    background-color: #fffdf9;
+    color: #5a3e2b;
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+#studentForm input:focus {
+    border-color: #b48763;
+    box-shadow: 0 0 5px rgba(180, 135, 99, 0.4);
+}
+
+
+.submitBtn {
+    background-color: #c9a47c;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.submitBtn:hover {
+    background-color: #b48763;
+    box-shadow: 0 4px 10px rgba(90, 62, 43, 0.25);
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fffaf5;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(90, 62, 43, 0.15);
+    padding: 40px;
+    text-align: center;
+}
+
+.container h1 {
+    color: #4b2e18;
+    margin-bottom: 25px;
+}
+
+.container h2 {
+    color: #6c4a31;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.filters {
+    margin-bottom: 30px;
+}
+
+.filters input {
+    padding: 10px 15px;
+    border: 1px solid #d9bfa7;
+    border-radius: 8px;
+    outline: none;
+    color: #5a3e2b;
+    background-color: #fffdf9;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.filters input:focus {
+    border-color: #b48763;
+    box-shadow: 0 0 5px rgba(180, 135, 99, 0.4);
+}
+
+
+.studentsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.studentsTable th {
+    background-color: #e9d8c3;
+    color: #4b2e18;
+    padding: 12px;
+    font-weight: 600;
+    border-bottom: 2px solid #c6a98a;
+}
+
+.studentsTable td {
+    padding: 10px;
+    border-bottom: 1px solid #e5cdb3;
+}
+
+.studentsTable tr:nth-child(even) {
+    background-color: #f9f3ed;
+}
+
+
+.addBtn {
+    display: inline-block;
+    background-color: #c9a47c;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: #b48763;
+    box-shadow: 0 4px 10px rgba(90, 62, 43, 0.25);
+}
